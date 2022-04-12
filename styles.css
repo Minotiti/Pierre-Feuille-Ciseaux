@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  background-image: url(images/bg1.png);
+  background-color: #FAA600;
+  /*#AD7400 for bg*/
+}
+
+h1 {
+  font-size: 3rem;
+  color: #0063FA;
+  font-family: 'Palette Mosaic', cursive;
+  margin: 15px auto 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0045AD;
+  font-family: 'Palette Mosaic', cursive;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #0045AD;
+  font-family: cursive;
+}
+
+.game-display {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/*Game Images*/
+
+.Player-img {
+  width: 300px;
+}
+
+.CPU-img {
+  width: 300px;
+}
+
+/*Game Buttons*/
+
+.game-button {
+  width: 100px;
+  height: 100px;
+  margin: 30px 20px;
+  background-color: #0063FA;
+  background-size: 100%;
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  border: solid #0045AD 5px;
+}
+
+.game-button:active {
+  background-color: #FAA600;
+}
+
+.game-button:hover {
+  border: solid #AD7400 5px;
+}
+
+.rock {
+  background-image: url(images/game1.png);
+}
+
+.paper {
+  background-image: url(images/game2.png);
+}
+
+.cisors {
+  background-image: url(images/game3.png);
+}
